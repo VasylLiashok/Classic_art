@@ -4018,7 +4018,7 @@ body::after {
   }
 
   .contacts__title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .contacts__title:not(:last-child) {
@@ -4844,6 +4844,10 @@ body::after {
             align-items: center;
   }
 
+  .production__title span.title--padding {
+    padding-left: 0;
+  }
+
   .production__content {
     text-align: center;
   }
@@ -4948,6 +4952,10 @@ body::after {
 
   .contacts__map-wrapper {
     padding-bottom: 60%;
+  }
+
+  .telegram__title span.title--padding {
+    padding-left: 0;
   }
 
   .telegram__content {
@@ -5083,7 +5091,7 @@ body::after {
 
 @media (max-width: 34.375em) {
   .preorder__title {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .item-preorder {
@@ -5270,11 +5278,15 @@ body::after {
 
   .production__title {
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.75rem !important;
   }
 
   .production__title span {
     text-align: center;
+  }
+
+  .orders__title {
+    font-size: 2rem !important;
   }
 
   .orders__text {
@@ -5328,7 +5340,7 @@ body::after {
 
 @media (max-width: 26.875em) {
   .preorder__title {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   .preorder__title strong {
@@ -5755,15 +5767,15 @@ body::after {
     }
 }
 
-@supports (font-size: clamp( 1.5rem , 0.8707865169rem  +  3.1460674157vw , 3.25rem )) {
+@supports (font-size: clamp( 2.5rem , 2.2303370787rem  +  1.3483146067vw , 3.25rem )) {
     .contacts__title {
-      font-size: clamp( 1.5rem , 0.8707865169rem  +  3.1460674157vw , 3.25rem );
+      font-size: clamp( 2.5rem , 2.2303370787rem  +  1.3483146067vw , 3.25rem );
     }
 }
 
-@supports not (font-size: clamp( 1.5rem , 0.8707865169rem  +  3.1460674157vw , 3.25rem )) {
+@supports not (font-size: clamp( 2.5rem , 2.2303370787rem  +  1.3483146067vw , 3.25rem )) {
     .contacts__title {
-      font-size: calc(1.5rem + 1.75 * (100vw - 20rem) / 55.625);
+      font-size: calc(2.5rem + 0.75 * (100vw - 20rem) / 55.625);
     }
 }
 
