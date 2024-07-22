@@ -4548,7 +4548,17 @@ body::after {
 		font-size: 1.125rem;
 		color: #ff7c03;
 	}
+	.socials__item--viber.footer-socials__item--viber .socials__icon {
+		padding: 0.96875rem;
+		border: 1px solid #fff;
+		background: rgba(255, 255, 255, 0.1);
+	}
 
+	.socials__item--viber.footer-socials__item--viber .socials__icon::before {
+		font-size: 1.125rem;
+		color: #fff;
+	}
+	
 	.socials__item {
 		color: #110d0b;
 	}
@@ -4630,7 +4640,10 @@ body::after {
 		order: 10;
 		color: #fff;
 	}
-
+	.footer .header__logo img {
+		min-width: unset;
+	}
+	/* 
 	.footer .header__menu::before {
 		content: "";
 		width: 200%;
@@ -4639,7 +4652,7 @@ body::after {
 		background-color: #000;
 		position: absolute;
 		top: 0;
-	}
+	} */
 
 	.footer .header__socials {
 		display: none;
