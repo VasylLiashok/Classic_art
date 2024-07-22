@@ -4558,7 +4558,9 @@ body::after {
 		font-size: 1.125rem;
 		color: #fff;
 	}
-	
+.footer-socials__item--viber{
+		align-self:center;
+	}
 	.socials__item {
 		color: #110d0b;
 	}
